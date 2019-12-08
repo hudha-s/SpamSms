@@ -33,9 +33,9 @@ try:
 			time.sleep(0.5)
 		else:
 			print("[-] gagal mengirim pesan ke "+no)
-			print("[!] sleep 60s")
+			print("[!] sleep 2s")
 			c-=1
-			time.sleep(60)
+			time.sleep(2)
 
 except KeyboardInterrupt: exit("[Exit] key interrupt")
 except Exception as F:
